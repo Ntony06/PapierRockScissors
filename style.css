@@ -44,13 +44,13 @@ body{
 }
 
 #sasso{
-    background: url(../img/rock.png) no-repeat;
+    background: url(./img/rock.png) no-repeat;
 }
 #forbici{
-    background: url(../img/scissor.png) no-repeat;
+    background: url(./img/scissor.png) no-repeat;
 }
 #carta{
-    background: url(../img/paper.png) no-repeat;
+    background: url(./img/paper.png) no-repeat;
 }
 #sceltaContainer{
     margin-top: -40px;
