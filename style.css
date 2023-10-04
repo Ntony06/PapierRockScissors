@@ -1,0 +1,65 @@
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #DEE2E6;
+}
+
+.container{
+    min-height: 600px;
+    min-width: 300px;
+    padding: 50px 30px 30px 30px ;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%; /* relative to nearest positioned ancestor or body element */
+    top: 50%; /*  relative to nearest positioned ancestor or body element */
+    transform: translate(-50%, -50%); /* relative to element's height & width */
+
+        -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(222,226,230,0); 
+        box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(222,226,230,0);
+        background: #1C6EA4;
+        }
+        body#tinymce {
+        background: #FFFFFF
+
+
+}
+.btnScelta{
+    margin-top: -5px;
+    width: 200px;
+    height: 200px;
+    background-size: 250px;
+    border: none;
+    cursor: pointer;
+}
+
+#sasso{
+    background: url(../img/rock.png) no-repeat;
+}
+#forbici{
+    background: url(../img/scissor.png) no-repeat;
+}
+#carta{
+    background: url(../img/paper.png) no-repeat;
+}
+#sceltaContainer{
+    margin-top: -40px;
+    min-height: 150px;
+}
+
+
+@media only screen and (max-width: 376px) {
+    #box{
+        margin-top: 60px;
+    }
+}
